@@ -7,3 +7,9 @@
 /NetworkOutput
 /Figures
 /.ipynb_checkpoints
+/Overlays
+/ReshapedOutputs
+9.nrrd
+Generate Figures.ipynb
+seg.nrrd
+volume.nrrd
