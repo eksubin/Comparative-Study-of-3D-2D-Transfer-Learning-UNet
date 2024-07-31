@@ -7,8 +7,8 @@
 /NetworkOutput
 /Figures
 /.ipynb_checkpoints
-Overlays
-ReshapedOutputs
+/Overlays
+/ReshapedOutputs
 9.nrrd
 checkFiles.ipynb
 .ipynb_checkpoints
@@ -17,3 +17,11 @@ Generate Figures.ipynb
 runUnetR.sh
 seg.nrrd
 volume.nrrd
+runUnetR
+checkFiles.ipynb
+network analysis.ipynb
+testing.ipynb
+Unet2D.ipynb
+Unetr.ipynb
+UnetR.py
+
