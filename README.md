@@ -20,6 +20,21 @@ The study focuses on the human vocal tract, which includes key articulators such
 
 Deep learning, particularly U-NET models, has shown promise in segmenting the upper airway from 3D MRI volumes. However, these approaches require substantial annotated training data, often necessitating manual annotations, which is a labor-intensive process. Despite progress in semi-automatic and fully automatic segmentation methods, challenges remain, such as the scarcity of open-source datasets and the need to fully leverage 3D features to avoid non-anatomical segmentations.
 
+## Dataset
+
+The dataset can be downloaded from the following link: [Figshare Dataset](https://figshare.com/s/cb050b61c0189605feda).
+
+This dataset comprises training and testing data for creating a deep learning segmentation model for the upper airway. It includes upper airway scans and their corresponding annotations, derived from the French speaker dataset. These annotations were meticulously crafted by experts for this specific project.
+
+The data is structured as follows:
+
+- **Training:**
+  - `RTrainVolumes`: Contains 3D upper airway MRI volumes.
+  - `RtrainLabels*`: Contains the corresponding segmentations.
+- **Testing:**
+  - `RVolumes`: Contains 3D upper airway MRI volumes.
+  - `RLabels`: Contains the corresponding segmentations.
+
 ## Installation
 
 To install the required packages, run:
