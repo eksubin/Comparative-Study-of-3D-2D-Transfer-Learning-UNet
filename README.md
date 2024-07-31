@@ -1,4 +1,4 @@
-# Airway3D_Monai
+## Exploring Advanced MRI Airway Segmentation Techniques for Voice Analysis: A Comparative Study of 3DUNet, 2DUNet, 3D Transfer Learning UNet, and 3D Transformer UNet 
 
 ## Overview
 
@@ -40,3 +40,10 @@ The data is structured as follows:
 To install the required packages, run:
 ```bash
 pip install -r requirements.txt
+```
+## Citation
+
+Please cite the following papers when using the code:
+
+1) S Erattakulangara, Exploring Advanced MRI Airway Segmentation Techniques for Voice Analysis: A Comparative Study of 3DUNet, 2DUNet, 3D Transfer Learning UNet, and 3D Transformer UNet
+
